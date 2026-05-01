@@ -3,49 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puppy Lover Page</title>
+    <title>Puppy Lover Page 🐾</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="my-header blueBG">
-        <div class="puppy-header">
-            <h1>hey guys welcome to Puppy Lover Page</h1>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="header-inner">
+            <span class="paw-icon">🐾</span>
+            <h1>Puppy Lover Page</h1>
+            <p class="tagline">Because every day is better with puppies</p>
         </div>
     </header>
 
-    <section class="banner-img">
-        <img src="images/banner-puppies.jpg" alt="Banner with puppies">
-    </section>
-
-    <section class="puppy-section">
-        <div class="puppy1">
-            <img src="images/puppy-1.jpg" alt="Puppy 1">
-        </div>
-        <div class="miss">
-            <div class="missing-puppy">
-                <p>the Puppy missing found in this part!!</p>
-            </div>
-        </div>
-        <div class="puppy2">
-            <img src="images/puppy-2.jpg" alt="Puppy 2">
+    <!-- HERO BANNER -->
+    <section class="hero">
+        <img src="images/banner-puppies.jpg" alt="A banner full of adorable puppies">
+        <div class="hero-overlay">
+            <h2>Welcome to the Cutest Corner of the Internet</h2>
         </div>
     </section>
 
-    <h1>More Puppies</h1>
+    <!-- INTRO -->
+    <section class="intro">
+        <p>Scroll down and meet our five furry friends. Warning: extreme cuteness ahead. 🐶</p>
+    </section>
 
-    <section class="puppy-section puppy-bottom">
-        <div class="puppy3">
-            <img src="images/puppy-3.jpg" alt="Puppy 3">
+    <!-- PUPPY GRID — TOP ROW (3 puppies) -->
+    <section class="puppy-grid" aria-label="Puppy gallery top row">
+        <div class="puppy-card">
+            <img src="images/puppy-1.jpg" alt="Puppy 1 — fluffy and playful">
+            <div class="card-label">Buddy</div>
         </div>
-        <div class="puppy4">
-            <img src="images/puppy-4.jpg" alt="Puppy 4">
+        <div class="puppy-card featured">
+            <img src="images/puppy-2.jpg" alt="Puppy 2 — curious and adorable">
+            <div class="card-label">Daisy</div>
+        </div>
+        <div class="puppy-card">
+            <img src="images/puppy-3.jpg" alt="Puppy 3 — energetic and sweet">
+            <div class="card-label">Max</div>
         </div>
     </section>
 
-    <footer class="my-footer">
-        <div>
-            <h2>Developed By: Seid</h2>
+    <!-- DIVIDER -->
+    <div class="section-divider">
+        <span>🐾 More Puppies 🐾</span>
+    </div>
+
+    <!-- PUPPY GRID — BOTTOM ROW (2 puppies) -->
+    <section class="puppy-grid puppy-grid--two" aria-label="Puppy gallery bottom row">
+        <div class="puppy-card">
+            <img src="images/puppy-4.jpg" alt="Puppy 4 — gentle and loving">
+            <div class="card-label">Luna</div>
         </div>
+        <div class="puppy-card">
+            <img src="images/puppy-5.jpg" alt="Puppy 5 — the newest addition">
+            <div class="card-label">Charlie</div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <span class="paw-icon">🐾</span>
+        <p>Made with ❤️ by <strong>Seid</strong></p>
+        <p class="footer-sub">Spreading puppy love, one page at a time.</p>
     </footer>
+
 </body>
 </html>
